@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Wangui Njoroge - Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #333;
+        }
+        .user-picture {
+            border-radius: 50%; /* Make the image round */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 120px; /* Increased picture size */
+            height: 120px; /* Increased picture size */
+            margin-right: 20px; /* Added margin to separate from name */
+        }
+        /* Override Bootstrap container padding */
+        .container {
+            padding: 0;
+        }
+        /* Navigation styles */
+        nav {
+            background-color: #e57373; /* Light baby pink */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ffb6c1; /* Lighter pink on hover */
+        }
+        /* Main content padding */
+        main {
+            padding-top: 80px; /* Adjust padding to account for fixed navbar */
+            background-color: #1a030b; /* Light pink background */
+        }
+        /* Header styles */
+        header {
+            padding: 50px 20px;
+            text-align: left;
+            color: #fff;
+            background-image: linear-gradient(to bottom right, #1a030b, #1a030b);
+            border-bottom: 1px solid #ddd; /* Add border for separation */
+        }
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        /* About section styles */
+        #about {
+            background-color: #fff;
+            padding: 50px 20px;
+            border-bottom: 1px solid #ddd; /* Add border for separation */
+        }
+        /* Projects section */
+        #projects {
+            background-color: #fcebf1; 
+            padding: 50px 20px;
+            border-bottom: 1px solid #ddd; /* Add border for separation */
+        }
+        .project {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            height: 100%; /* Set a fixed height for the project container */
+            overflow: hidden; /* Hide any content overflow */
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project-img {
+            width: 100%;
+            height: 200px; /* Set a fixed height for the project images */
+            object-fit: cover; /* Ensure the image covers the entire space */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .project h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        /* Contact section */
+        #contact {
+            background-color: #fff;
+            padding: 50px 20px;
+        }
+        .contact p {
+            margin-bottom: 15px;
+        }
+        .contact i {
+            margin-right: 10px;
+        }
+        .contact a {
+            color: #333;
+        }
+        .contact a:hover {
+            color: #e57373;
+        }
+        /* Footer */
+        footer {
+            background-color: #050002; 
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="row align-items-center"> <!-- Center align the row -->
+                    <div class="col-md-2">
+                        <img src="me.jpg" alt="User Picture" class="user-picture">
+                    </div>
+                    <div class="col-md-10">
+                        <h1>Faith Wangui Njoroge</h1>
+                        <p>Web Developer | UI/UX Designer | Data Analyst</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Me section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="text-center mb-4">About Me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p class="text-center">I'm a passionate web developer and UI/UX designer with a strong focus on creating engaging and user-friendly interfaces. I am a Student at Strathmore University currently doing my degree in BBIT, I have developed a deep understanding of front-end development technologies and design principles.</p>
+                        <p class="text-center">As a data analyst, I also possess strong analytical skills and expertise in handling and interpreting data to derive valuable insights. I have experience in data cleaning, analysis, visualization, and reporting using tools such as Python, R, SQL, and Tableau.</p>
+                        <p class="text-center">My skills include HTML, CSS, JavaScript, React, and Adobe Creative Suite. I am constantly learning and experimenting with new technologies to stay updated with the latest trends in web development, design, and data analytics.</p>
+                        <p class="text-center">In my free time, I enjoy exploring new design trends, participating in hackathons, contributing to open-source projects, and delving into data analysis challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="text-center mb-4">Projects</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="project">
+                            <img src="mkulima.jpeg" alt="Mkulima" class="project-img">
+                            <div class="p-3">
+                                <h3>Mkulima</h3>
+                                <p>A web-based app for hiring equipment. Developed using Laravel.</p>
+                                <a href="https://github.com/WanguiMps/TingaShop" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project">
+                            <img src="jio.jpeg" alt="Jiorganize" class="project-img">
+                            <div class="p-3">
+                                <h3>Jiorganize</h3>
+                                <p>A personalized financial management system for campus students.</p>
+                                <a href="https://github.com/WanguiMps/Jiorgarnize" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project">
+                            <img src="jion.jpeg" alt="Project 3" class="project-img">
+                            <div class="p-3">
+                                <h3>Stock Prediction</h3>
+                                <p>A stock prediction system.</p>
+                                <a href="https://github.com/WanguiMps/finaj" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 contact">
+                        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:wanguifaithh@gmail.com">wanguifaithh@gmail.com</a></p>
+                        <p><i class="fas fa-phone-alt"></i> Phone: <a href="tel:+254758638778">+254 758638778</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Location: Nairobi, Kenya</p>
+                        <p>Connect with me on:</p>
+                        <a href="https://www.linkedin.com/Faith Wangui" class="mr-2" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/WanguiMps" class="mr-2" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/faiyholmes" class="mr-2" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <p>&copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
